@@ -1,0 +1,16 @@
+printf("pre order traversal =>\n");
+    PreOrderTraversal(root);
+    printf("In order traversal =>\n");
+    InOrderTraversal(root);
+    printf("post order traversal =>\n");
+    PostOrderTraversal(root);
+    int x=countNode(root);
+    printf("\n%d",x);
+    int y=countLeafNode(root);
+    printf("\n%d",y);
+    int z=countN1(root);
+    printf("\n%d",z);
+    int a=countN2(root);
+    printf("\n%d",a);
+    int h=height(root);
+    printf("\n%d",h);
